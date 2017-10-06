@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web");
+::selection {
+  background: #A50B5E; }
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Titillium Web", sans-serif;
+  text-align: center;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box; }
+
+img {
+  max-width: 100%; }
+
+html, body {
+  height: 100%; }
+
+body {
+  background-image: url("../bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover; }
+
+input {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 1.5em;
+  width: 100%; }
+
+h1 {
+  color: #1D2951; }
+
+.wrapper {
+  max-width: 450px;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #fff;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 80px 1px #1D2951; }
+  .wrapper .image-wrapper img {
+    width: 225px;
+    border-radius: 0%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; }
+  .wrapper .name {
+    font-size: 2.2em; }
+  .wrapper .description {
+    color: #A50B5E;
+    text-transform: uppercase;
+    margin-top: 10px; }
+  .wrapper .social-media a i {
+    color: #1D2951;
+    font-size: 2em;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 15px;
+    transition: 300ms; }
+    .wrapper .social-media a i:hover {
+      color: #A50B5E;
+      transition: 300ms; }
+  .wrapper .follow {
+    background: #1D2951;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    letter-spacing: 0.1em;
+    padding: 10px 45px;
+    margin: 10px;
+    border-radius: 30px;
+    transition: 300ms;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; }
+    .wrapper .follow:hover {
+      background: #A50B5E;
+      color: #fff;
+      transition: 300ms; }
+    .wrapper .follow .fa-twitter {
+      margin-right: 5px;
+      margin-top: 30px;
+      margin-bottom: 30px; }
+    .wrapper .follow .fa-github {
+      margin-right: 5px;
+      margin-top: 30px;
+      margin-bottom: 30px; }

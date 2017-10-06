@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+    <title>The QRL</title>
+    <link rel="stylesheet" href="bower_components/semantic/dist/semantic.min.css">
+    <link rel="stylesheet" href="css/styles-min.css">
+   
+    <link rel="stylesheet" href="css/roadmap-min.css">
+     <link rel="stylesheet" href="css/timeline-min.css">
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/semantic/dist/semantic.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <script src="js/roadmap-min.js">
+    </script>
+</head>
+
+<body>
+    <div class="ui medium top fixed inverted menu">
+            <div class="ui container"><a class="toc item"><i class="sidebar icon"></i> </a><a href="index.html" class="item">Home</a><a class="item" href="https://discord.gg/BheKAZb"><i class="comment outline icon"></i> Discord chat</a><a class="item" href="team.html"><i class="users icon"></i> Team</a> <a class="active item" href="roadmap.html"><i class="road icon"></i> Roadmap</a> <a class="item" href="https://medium.com/the-quantum-resistant-ledger" target="_blank"><i class="medium icon"></i> Blog</a> <a class="item" href="https://twitter.com/qrledger" target="_blank"><i class="twitter icon"></i> Twitter</a><a class="item" href="https://reddit.com/r/qrl" target="_blank"><i class="reddit alien icon"></i> Reddit</a> <a class="item" href="https://github.com/theQRL"><i class="github icon" aria-hidden="true"></i> Github</a>
+                <div class="right menu">
+                    <div class="ui dropdown item">White paper <i class="dropdown icon"></i>
+                        <div class="menu"><a class="item" href="https://github.com/theQRL/Whitepaper/blob/master/QRL_whitepaper.pdf" target="_blank"><i class="gb flag"></i> English</a> <a class="item" href="https://github.com/theQRL/Whitepaper/blob/master/QRL_Whitepaper_Japanese.pdf" target="_blank"><i class="japan flag"></i> Japanese</a></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+     <div class="ui vertical inverted sidebar menu"><a href="index.html" class="item">Home</a><a class="item" href="https://discord.gg/BheKAZb"><i class="comment outline icon"></i> Discord chat</a><a class="item" href="team.html"><i class="users icon"></i> Team</a> <a class="active item" href="roadmap.html"><i class="road icon"></i> Roadmap</a> <a class="item" href="https://medium.com/the-quantum-resistant-ledger" target="_blank"><i class="medium icon"></i> Blog</a> <a class="item" href="https://twitter.com/qrledger" target="_blank"><i class="twitter icon"></i> Twitter</a><a class="item" href="https://reddit.com/r/qrl" target="_blank"><i class="reddit alien icon"></i> Reddit</a> <a class="item" href="https://github.com/theQRL/Whitepaper/blob/master/QRL_whitepaper.pdf"><i class="gb flag"></i> White paper</a> <a class="item" href="https://github.com/theQRL/Whitepaper/blob/master/QRL_Whitepaper_Japanese.pdf" target="_blank"><i class="japan flag"></i> White paper</a> <a class="item" href="https://github.com/theQRL"><i class="github icon" aria-hidden="true"></i> Github</a></div>
+    <div class="pusher">
+        <div class="ui vertical stripe segment">
+            <div class="ui container">
+                <h1>Roadmap</h1>
+                                <section id="cd-timeline" class="cd-container">
+                                    <div class="cd-timeline-block">
+                                        <div class="cd-timeline-img cd-idea">
+                                            <img src="assets/Light-Bulb-Transparent-Background.png" alt="Picture">
+                                        </div>
+                                        <!-- cd-timeline-img -->
+                                        <div class="cd-timeline-content">
+                                            <h2>The Idea</h2>
+                                            <p>
+                                                Founder noticed investment in QC development, ECDSA being deprecated by the NSA and given the vulnerability in all existing blockchain ledgers conceived the idea of a post-quantum ledger.
+                                            </p>
+                                            <p>
+                                                Creation of post-quantum secure hash-based digital signature library
+                                            </p>
+                                            <!-- <a href="#0" class="cd-read-more">Read more</a> -->
+                                            <span class="cd-date">August 2016</span>
+                                        </div>
+                                        <!-- cd-timeline-content -->
+                                    </div>
+                                    <!-- cd-timeline-block -->
+                                    <div class="cd-timeline-block">
+                                        <div class="cd-timeline-img cd-whitepaper">
+                                            <img src="assets/build.png" alt="Picture">
+                                        </div>
+                                        <!-- cd-timeline-img -->
+                                        <div class="cd-timeline-content">
+                                            <h2>Proof of work</h2>
+                                            <p>Creation of a POW ledger utilising Merkle signature scheme addresses with Winternitz and Lamport one-time signatures.</p>
+                                            <!-- <a href="#0" class="cd-read-more">Read more</a> -->
+                                            <span class="cd-date">September 2016</span>
+                                        </div>
+                                        <!-- cd-timeline-content -->
+                                    </div>
+                                    <!-- cd-timeline-block -->
+                                    <div class="cd-timeline-block">
+                                        <div class="cd-timeline-img cd-whitepaper">
+                                            <img src="assets/entry.png" alt="Movie">
+                                        </div>
+                                        <!-- cd-timeline-img -->
+                                        <div class="cd-timeline-content">
+                                            <h2>Whitepaper Release</h2>
+                                            <p>After discussion with developers, post-quantum cryptographers and research into existing roadmap of blockchain technology, the whitepaper was written to provide an overview of quantum resistant methodologies. The Winternitz OTS+ and Extended Merkle Signature Scheme (XMSS) were identified as the optimal solutions. This investigation also revealed the necessity of QRL to stand alone as a network with interoperability in the later pipeline.</p>
+                                            <!-- <a href="#0" class="cd-read-more">Read more</a> -->
+                                            <span class="cd-date">November 2016</span>
+                                        </div>
+                                        <!-- cd-timeline-content -->
+                                    </div>
+                                    <!-- cd-timeline-block -->
+                                    <div class="cd-timeline-block">
+                                        <div class="cd-timeline-img cd-picture">
+                                            <img src="assets/build.png" alt="Picture">
+                                        </div>
+                                        <!-- cd-timeline-img -->
+                                        <div class="cd-timeline-content">
+                                            <h2>POS</h2>
+                                            <p>Design of a proof-of-stake algorithm (POS)</p>
+                                            <!-- <a href="#0" class="cd-read-more">Read more</a> -->
+                                            <span class="cd-date">December 2016</span>
+                                        </div>
+                                        <!-- cd-timeline-content -->
+                                    </div>
+                                    <!-- cd-timeline-block -->
+                                    <div class="cd-timeline-block">
+                                        <div class="cd-timeline-img cd-picture">
+                                            <img src="assets/blockexplorer.png" alt="Location">
+                                        </div>
+                                        <!-- cd-timeline-img -->
+                                        <div class="cd-timeline-content">
+                                            <h2>Node</h2>
+                                            <p>Prototype node development with basic POS algorithm and integration of XMSS signatures</p>
+                                            <!-- <a href="#0" class="cd-read-more">Read more</a> -->
+                                            <span class="cd-date">January 2017</span>
+                                        </div>
+                                        <!-- cd-timeline-content -->
+                                    </div>
+                                    <!-- cd-timeline-block -->
+                                    <div class="cd-timeline-block">
+                                        <div class="cd-timeline-img cd-picture">
+                                            <img src="assets/blockexplorer.png" alt="Location">
+                                        </div>
+                                        <!-- cd-timeline-img -->
+                                        <div class="cd-timeline-content">
+                                            <h2>Node</h2>
+                                            <p>Design and launch of the first iteration of the block explorer</p>
+                                            <!-- <a href="#0" class="cd-read-more">Read more</a> -->
+                                            <span class="cd-date">February 2017</span>
+                                        </div>
+                                        <!-- cd-timeline-content -->
+                                    </div>
+                                    <!-- cd-timeline-block -->
+                                    <div class="cd-timeline-block">
+                                        <div class="cd-timeline-img cd-picture">
+                                            <img src="assets/blockexplorer.png" alt="Location">
+                                        </div>
+                                        <!-- cd-timeline-img -->
+                                        <div class="cd-timeline-content">
+                                            <h2>Private testnet</h2>
+                                            <p>Iterative testing of POS algorithmic updates</p>
+                                            <span class="cd-date">March 2017</span>
+                                        </div>
+                                    </div>
+                                    <!-- cd-timeline-block -->
+                                    <div class="cd-timeline-block">
+                                        <div class="cd-timeline-img cd-picture">
+                                            <img src="assets/blockexplorer.png" alt="Location">
+                                        </div>
+                                        <!-- cd-timeline-img -->
+                                        <div class="cd-timeline-content">
+                                            <h2>Alpha testnet</h2>
+                                            <p>Launch of the Alpha testnet with nodes running on MacOS, Linux, Windows on hardware including Raspberry Pi.</p>
+                                            <p>Private seed presale round opens.</p>
+                                            <span class="cd-date">April 2017</span>
+                                        </div>
+                                    </div>
+                                    <!-- cd-timeline-block -->
+                                    <div class="cd-timeline-block">
+                                        <div class="cd-timeline-img cd-picture">
+                                            <img src="assets/blockexplorer.png" alt="Location">
+                                        </div>
+                                        <!-- cd-timeline-img -->
+                                        <div class="cd-timeline-content">
+                                            <h2>Funding targets achieved</h2>
+                                            <p>Public ICO no longer required</p>
+                                            <p>Start of integration of Ephemeral messaging layer to enable end-end secure data channels</p>
+                                            <span class="cd-date">May 2017</span>
+                                        </div>
+                                    </div>
+                                    <!-- cd-timeline-block -->
+                                    <div class="cd-timeline-block">
+                                        <div class="cd-timeline-img cd-picture">
+                                            <img src="assets/blockexplorer.png" alt="Location">
+                                        </div>
+                                        <!-- cd-timeline-img -->
+                                        <div class="cd-timeline-content">
+                                            <h2>Public testnet</h2>
+                                            <p>Node optimisation with C++. Golang node creation.</p>
+                                            <p>Internode encrypted communication (‘new hope’ lattice-based cryptography)</p>
+                                            <span class="cd-date">June 2017</span>
+                                        </div>
+                                    </div>
+                                    <div class="cd-timeline-block">
+                                        <div class="cd-timeline-img cd-picture"><img src="assets/pq-sertificates.png" alt="Location"></div>
+                                        <div class="cd-timeline-content">
+                                            <h2>Ongoing Testing &amp; Development</h2>
+                                            <p>Web Wallet + other GUI work</p>
+                                            <p>Further Optimizations</p>
+                                            <p>Preparing for security testnet</p>
+                                            <span class="cd-date"><h2>&#x2190; We Are Here</h2></span></div>
+                                    </div>
+                                    <div class="cd-timeline-block">
+                                        <div class="cd-timeline-img cd-picture"><img src="assets/vulnerability.png" alt="Location"></div>
+                                        <div class="cd-timeline-content">
+                                            <h2>Security Testing</h2>
+                                            <p>Bug Bounty Program</p>
+                                            <p>External Auditing</p>
+                                            <span class="cd-date"></span></div>
+                                    </div>
+                                    <!-- cd-timeline-block -->
+                                    <div class="cd-timeline-block">
+                                        <div class="cd-timeline-img cd-picture">
+                                            <img src="assets/blockexplorer.png" alt="Location">
+                                        </div>
+                                        <!-- cd-timeline-img -->
+                                        <div class="cd-timeline-content">
+                                            <h2>Genesis block</h2>
+                                            <p>To come after thorough testing and auditing</p>
+                                            <p>1:1 Conversion of QRL (ERC 20) tokens to Official QRL</p>
+                                            <span class="cd-date"></span>
+                                        </div>
+                                    </div>
+                                    <!-- cd-timeline-block -->
+                                    <div class="cd-timeline-block">
+                                        <div class="cd-timeline-img cd-picture">
+                                            <img src="assets/blockexplorer.png" alt="Location">
+                                        </div>
+                                        <!-- cd-timeline-img -->
+                                        <div class="cd-timeline-content">
+                                            <h2>Ephemeral</h2>
+                                            <p>Continued active node development</p>
+                                            <p>Completion of Ephemeral to be signature scheme agnostic.</p>
+                                            <p>Light client development</p>
+                                            <p>Light client API to enable apps and web enabled devices to access the QRL</p>
+                                            <p>Internode messaging compression</p>
+                                            <p>Research and development - post-quantum multi-signature transactions</p>
+                                            <span class="cd-date">2017-2018</span>
+                                        </div>
+                                    </div>
+                                    <!-- cd-timeline-block -->
+                                    <div class="cd-timeline-block">
+                                        <div class="cd-timeline-img cd-picture">
+                                            <img src="assets/blockexplorer.png" alt="Location">
+                                        </div>
+                                        <!-- cd-timeline-img -->
+                                        <div class="cd-timeline-content">
+                                            <h2>PQ secure digital identification</h2>
+                                            <p>Blockchain based ultra secure digital ID. </p>
+                                            <p>Leveraging Ephemeral messaging layer with off chain services: PQ secure data channels, PQ secure comms, PQ secure messenger services, PQ secure VOIP, PQ secure VPN.</p>
+                                            <p>PQ secure provenance and proof-of-existence services.</p>
+                                            <p>Feasibility of smart contract integration.</p>
+                                            <span class="cd-date">2018-2019</span>
+                                        </div>
+                                    </div>
+                                </section>
+                                <!-- cd-timeline -->
+            </div>
+        </div>
+        <div class="ui inverted vertical footer segment">
+            <div class="ui container">
+                <div class="ui stackable inverted divided equal height stackable grid">
+                    <div class="seven wide column">
+                        <h4 class="ui inverted header">&copy; The QRL 2017</h4>
+                        <p>Questions? <a href="mailto:info@theqrl.org">info@theQRL.org</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ui modal" id="slack"><i class="close icon"></i>
+        <div class="header">QRL Slack</div>
+        <div class="content">
+               Our Slack community is renowned for being friendly and a great place to talk about the QRL, cryptography and all things cryptocurrency.
+               <br><br>
+               Spam besets most open Slack communities and whilst we do try to keep the spammers at bay, inevitably some slip through.  <b>Never click a link</b> without thinking 'is someone trying to scam me?' - in particular, we never send links by notification.  If Slackbot does this, someone is trying to con you... beware!
+               <br><br>
+               Periodically, to prevent abuse, we disable the <a href="http://slack.theqrl.org">automated signup</a> to our Slack.  If the link doesn't work, please email <a href="mailto:info@theqrl.org">info@theqrl.org</a> and request an invitation.<br><br>We apologise for the inconvenience.<br></div>
+        </div>
+    <script type="text/javascript">
+    $('.ui.dropdown').dropdown();
+    </script>
+</body>
+
+</html>

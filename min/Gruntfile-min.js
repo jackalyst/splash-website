@@ -1,1 +1,0 @@
-module.exports=function(t){t.initConfig({htmlmin:{dist:{options:{removeComments:!0,collapseWhitespace:!0},files:[{expand:!0,cwd:"source",src:"**/*.html",dest:"build/"}]}}}),t.loadNpmTasks("grunt-contrib-htmlmin"),t.registerTask("default",["htmlmin"])};

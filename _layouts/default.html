@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <main class="page-content" aria-label="Content">
+      <div class="pusher">
+        <div class="ui inverted vertical masthead center aligned segment" id="section-1">
+        <div class="ui container">
+            <div class="ui medium secondary inverted pointing menu"><a class="toc item"><i class="sidebar icon"></i> </a><a class="active item">Home</a> <a class="item" href="https://discord.gg/BheKAZb"><i class="comment outline icon"></i> Discord chat</a> <a class="item" href="team.html"><i class="users icon"></i> Team</a> <a class="item" href="roadmap.html"><i class="road icon"></i> Roadmap</a> <a class="item" href="https://medium.com/the-quantum-resistant-ledger" target="_blank"><i class="medium icon"></i> Blog</a> <a class="item" href="https://twitter.com/qrledger" target="_blank"><i class="twitter icon"></i> Twitter</a><a class="item" href="https://reddit.com/r/qrl" target="_blank"><i class="reddit alien icon"></i> Reddit</a><a class="item" href="https://github.com/theQRL"><i class="github icon"></i> Github</a>
+                <div class="right menu">
+                    <div class="ui dropdown item">White paper <i class="dropdown icon"></i>
+                        <div class="menu"><a class="item" href="https://github.com/theQRL/Whitepaper/blob/master/QRL_whitepaper.pdf" target="_blank"><i class="gb flag"></i> English</a> <a class="item" href="https://github.com/theQRL/Whitepaper/blob/master/QRL_Whitepaper_Japanese.pdf" target="_blank"><i class="japan flag"></i> Japanese</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {{ content }}
+      </div>
+      </div>
+    </main>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

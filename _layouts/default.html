@@ -6,7 +6,11 @@
   {% include sidebar.html %}
   <main class="page-content" aria-label="Content">
     <div class="pusher">
-      <div class="ui inverted vertical masthead center aligned segment" id="section-1">
+      {% if page.active == "home" %}
+        <div class="ui inverted vertical masthead center aligned segment" id="section-1">
+      {% else %}
+      <div class="ui inverted vertical masthead center aligned segment">
+      {% endif %}
         {% include mainmenu.html %}
         {{ content }}
       </div>

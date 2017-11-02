@@ -2,4 +2,4 @@ install [jekyll](https://jekyllrb.com/)
 
 cd into repo
 
-`bundle exec jekyll serve
+`` bundle exec jekyll serve

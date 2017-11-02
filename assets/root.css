@@ -170,3 +170,6 @@
     div#header.ui.text.container h2 {
         margin-bottom: 0px !important;
     }
+    .faq-content {
+        margin-top: -20px;
+    }

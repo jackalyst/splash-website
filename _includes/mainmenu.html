@@ -1,0 +1,35 @@
+        <div class="ui container">
+          <div class="ui medium secondary inverted pointing menu">
+            <a class="toc item"><i class="sidebar icon"></i></a>
+            {% if page.active == "home" %}
+              <a class="item active" href="/">Home</a>
+            {% else %}
+              <a class="item" href="/">Home</a>
+            {% endif %}
+            <a class="item" href="https://discord.gg/BheKAZb"><i class="comment outline icon"></i> Discord chat</a>
+            {% if page.active == "team" %}
+              <a class="item active" href="/team"><i class="users icon"></i> Team</a>
+            {% else %}
+              <a class="item" href="/team"><i class="users icon"></i> Team</a>
+            {% endif %}
+            {% if page.active == "roadmap" %}
+              <a class="item active" href="/roadmap"><i class="road icon"></i> Roadmap</a>
+            {% else %}
+              <a class="item" href="/roadmap"><i class="road icon"></i> Roadmap</a>
+            {% endif %}  
+            {% if page.active == "faq" %}
+              <a class="item active" href="/faq"><i class="question icon"></i> FAQ</a>
+            {% else %}
+              <a class="item" href="/faq"><i class="question icon"></i> FAQ</a>
+            {% endif %} 
+            <a class="item" href="https://medium.com/the-quantum-resistant-ledger" target="_blank"><i class="medium icon"></i> Blog</a>
+            <a class="item" href="https://twitter.com/qrledger" target="_blank"><i class="twitter icon"></i> Twitter</a>
+            <a class="item" href="https://reddit.com/r/qrl" target="_blank"><i class="reddit alien icon"></i> Reddit</a>
+            <a class="item" href="https://github.com/theQRL"><i class="github icon"></i> Github</a>
+
+              <div class="ui dropdown item"><i class="file text outline icon"></i> White paper <i class="dropdown icon"></i>
+                <div class="menu"><a class="item" href="https://github.com/theQRL/Whitepaper/blob/master/QRL_whitepaper.pdf" target="_blank"><i class="gb flag"></i> English</a> <a class="item" href="https://github.com/theQRL/Whitepaper/blob/master/QRL_Whitepaper_Japanese.pdf" target="_blank"><i class="japan flag"></i> Japanese</a></div>
+              </div>
+
+          </div>
+        </div>

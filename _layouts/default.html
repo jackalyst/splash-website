@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: " en " }}">
+{% include head.html %}
+
+<body>
+  {% include sidebar.html %}
+  <main class="page-content" aria-label="Content">
+    <div class="pusher">
+      {% if page.active == "home" %}
+        <!-- <div class="ui inverted vertical masthead center aligned segment" id="section-1"> -->
+          <div class="ui inverted vertical masthead center aligned segment">
+      {% else %}
+      <div class="ui inverted vertical masthead center aligned segment">
+      {% endif %}
+        {% include mainmenu.html %}
+        {{ content }}
+      </div>
+    </div>
+  </main>
+  {% include footer.html %}
+</body>
+
+</html>

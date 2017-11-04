@@ -281,3 +281,40 @@ h1.post-title {
   margin-top: 40px;
   margin-bottom: 20px;
 }
+
+/*
+Medium import
+*/
+
+.date {
+  background-color: #A50B5E;
+  position: absolute;
+  padding: 10px;
+  text-align: center;
+  font-weight: 500;
+  z-index: 9;
+  color: #FFF;
+  
+}
+.ui.cards > .card > :first-child, .ui.card > :first-child {
+  border-radius: 0 0 0 0 !important;
+}
+.author {
+  color: #6c6c6c;
+}
+.ui.cards > .card > .content p, .ui.card > .content p {
+  color: #000;
+}
+.ui.cards > .card > .image > img, .ui.card > .image > a > img {
+  object-fit: cover;
+  width: 100%;
+  height: 250px !important;
+}
+.ui.cards > .card > .image > img, .ui.card > .image > a > img:hover {
+    -webkit-filter: brightness(70%);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }

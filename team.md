@@ -6,7 +6,7 @@ active: team
 ---
 <div class="ui vertical stripe segment">
   <div class="ui container">
-    <div class="ui cards">
+    <div class="ui centered cards">
       <div class="ui card">
         <div>
           <p align="center"><img src="/assets/pete.png" style="max-width: 150px"></p>

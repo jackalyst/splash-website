@@ -33,7 +33,7 @@ $.get('https://api.rss2json.com/v1/api.json', data, function (response) {
                 var maxLength = 120 // maximum number of characters to extract
                 //trim the string to the maximum length
                 var trimmedString = yourString.substr(0, maxLength);
-                console.log(trimmedString);
+                // console.log(trimmedString);
                 //re-trim if we are in the middle of a word
                 trimmedString = trimmedString.substr(0, Math.min(trimmedString.length, trimmedString.lastIndexOf(" ")))
                 output += '<p>' + trimmedString + '...</p>';

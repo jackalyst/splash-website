@@ -1,3 +1,10 @@
+html {
+   height: 100% !important;
+}
+
+body {
+   min-height: 100% !important;
+}
 .ui.vertical.inverted.sidebar.menu {
   padding-top: 3em;
 }
@@ -35,6 +42,14 @@
   font-size: 1.7em;
   font-weight: normal;
   margin-bottom: 30px;
+}
+
+.intro p {
+  font-size: 32px;
+  font-weight: 700;
+  max-width:1080px;
+  text-shadow: 0 0 4px rgba(0,0,0,0.8);
+  margin:0 auto;
 }
 
 .ui.vertical.stripe {
@@ -109,7 +124,9 @@
 .footer.segment {
   padding: 5em 0em;
 }
-
+.secondary.pointing.menu > .item:last-child {
+  margin-left: auto;
+}
 .secondary.pointing.menu .toc.item {
   display: none;
 }
@@ -149,17 +166,20 @@
   }
 }
 
-.ui.inverted.vertical.masthead.center.aligned.segment {
+/*.ui.inverted.vertical.masthead.center.aligned.segment {*/
+body.pushable > .pusher {
   background-color: #000;
   background-image: url(../assets/sunrise.jpg);
   background-position: center top, center top;
   background-repeat: no-repeat;
-  height: auto;
+  /*height: auto;*/
   width: auto;
-  background-size: contain;
+  background-size: cover;
   background-attachment: fixed;
 }
-
+.ui.inverted.segment, .ui.primary.inverted.segment {
+  background:none;
+}
 .ui.secondary.inverted.pointing.menu {
   border: none;
 }
@@ -171,7 +191,7 @@
     }*/
 
 .ui.vertical.stripe.quote.inverted.segment {
-  background: #1D2951;
+  /*background: #1D2951;*/
 }
 
 h3.ui.header.qrl-blue {
@@ -281,7 +301,22 @@ h1.post-title {
   margin-top: 40px;
   margin-bottom: 20px;
 }
-
+.post {
+  max-width: 960px;
+  margin:0 auto;
+  text-align: left;
+  padding:10px;
+}
+.post .post-meta {
+  display:none;
+}
+.post .post-header {
+  text-align: left;
+}
+.post .post-content {
+  padding:10px;
+  background-color:rgba(0,0,0,0.7);
+}
 /*
 Medium import
 */

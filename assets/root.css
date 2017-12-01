@@ -44,12 +44,22 @@ body {
   margin-bottom: 30px;
 }
 
+.intro {
+  background: #1D2951;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.intro > div > iframe {
+  margin: 2em 0 1em 0;
+}
+
 .intro p {
-  font-size: 32px;
+  font-size: 2em;
   font-weight: 700;
   max-width:1080px;
   text-shadow: 0 0 4px rgba(0,0,0,0.8);
-  margin:0 auto;
+  margin:0 auto 1em;
 }
 
 .ui.vertical.stripe {

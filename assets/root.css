@@ -56,14 +56,14 @@ body {
   height: 500px;
 }
 
-.intro p {
+.intro > div > p {
   font-size: 2em;
   font-weight: 700;
   /*max-width:1080px;*/
   text-shadow: 0 0 4px rgba(0,0,0,0.8);
   margin:0 auto 1em;
-  margin-left: 1em;
-  margin-right: 1em;
+  margin-left: 2em;
+  margin-right: 2em;
 }
 
 @media only screen and (max-width: 700px) {

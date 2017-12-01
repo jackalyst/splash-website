@@ -52,14 +52,32 @@ body {
 
 .intro > div > iframe {
   margin: 2em 0 1em 0;
+  width: 700px;
+  height: 500px;
 }
 
 .intro p {
   font-size: 2em;
   font-weight: 700;
-  max-width:1080px;
+  /*max-width:1080px;*/
   text-shadow: 0 0 4px rgba(0,0,0,0.8);
   margin:0 auto 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+@media only screen and (max-width: 700px) {
+  .intro {
+      margin-top: 1em;
+  margin-bottom: 1em;
+  }
+  .intro > div > p {
+  font-size: 1em;
+  }
+  .intro > div > iframe {
+    width: 400px;
+    height: 260px;
+  }
 }
 
 .ui.vertical.stripe {

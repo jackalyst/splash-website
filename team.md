@@ -102,7 +102,7 @@ active: team
         <div class="content">
           <div class="header">Adam Koltun</div>
           <div class="meta"><a class="group">Marketing &amp; Community</a></div>
-          <div class="description">&nbsp;
+          <div class="description">Marketing Manager
             <br><a href="https://keybase.io/alkoltun"><code>keybase id alkoltun</code></a></div>
         </div>
       </div>
@@ -113,7 +113,7 @@ active: team
         <div class="content">
           <div class="header">Jack Matier</div>
           <div class="meta"><a class="group">Marketing &amp; Community</a></div>
-          <div class="description">&nbsp;
+          <div class="description">Community Support
             <br><a href="https://keybase.io/jackalyst"><code>keybase id jackalyst</code></a></div>
         </div>
       </div>
@@ -124,7 +124,7 @@ active: team
         <div class="content">
           <div class="header">Elliott Gregory Dehnbostel</div>
           <div class="meta"><a class="group">Marketing &amp; Community</a></div>
-          <div class="description">&nbsp;
+          <div class="description">Community Engagement
             <br><a href="https://keybase.io/elliottdehn"><code>keybase id elliottdehn</code></a></div>
         </div>
       </div>

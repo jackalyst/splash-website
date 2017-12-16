@@ -4,7 +4,7 @@ title:  "How do I get started with Testnet?"
 date:   2017-11-06
 categories: PoS
 ---
-We have a number of guides related to testnet features, and you are always welcome to come check out our #alpha-testers channel on our Discord or submit a bug report to our GitHub!
+We have a number of guides related to testnet features, and you are always welcome to come check out our #testnet channel on our Discord or submit a bug report to our GitHub!
 Guide to get started with testnet: [https://github.com/theQRL/QRL/#qrl-testnet-instructions-for-alpha-testers](https://github.com/theQRL/QRL/#qrl-testnet-instructions-for-alpha-testers)
 
 - Web-wallet: [https://wallet.theqrl.org](https://wallet.theqrl.org)
